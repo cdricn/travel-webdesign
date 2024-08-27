@@ -1,0 +1,38 @@
+:root {
+  --fs-title: clamp(40px, calc(2.5rem + ((1vw - 7.8px) * 2.1053)), 64px);
+}
+
+h2 {
+  font-family: 'InriaBold';
+  font-size: 4rem; /*4rem to 2.5rem , 7vh*/
+  line-height: 2rem; /*2rem , 3vh*/
+}
+h3 {
+  font-size: 1.8rem; /*1.8rem to 0rem , 3.2vh*/
+  color: #FF6565;
+}
+
+.grid_main {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.grid_item {
+  position: relative;
+  height: 455px; /*455px , 50vh*/
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.item_title {
+  margin: 1rem; /*1rem , 2vh*/
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  
+  text-align: end;
+}
+
+@media (width < 1280){
+  /*Change vh to rem*/
+}

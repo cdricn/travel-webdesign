@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'InriaBold';
+  src:local('InriaSerif-Bold'),
+  url('./fonts/InriaSerif-Bold.ttf')
+}
+
+@font-face {
+  font-family: 'Vogue';
+  src:local('Vogue'),
+  url('./fonts/Vogue.ttf')
+}
