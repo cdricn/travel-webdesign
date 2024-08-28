@@ -29,10 +29,24 @@ h3 {
 .grid_item {
   position: relative;
   height: 455px; /*455px , 50vh*/
-  background-position: 50% 50%;
+  isolation: isolate;
   background-size: cover;
   background-repeat: no-repeat;
 }
+.grid_item::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(
+    0deg,
+    rgba(0 0 0 / .6) 0%,
+    rgba(255 255 255 / 0) 40%
+  );
+}
+.grid_item:hover {
+}
+
 .item_title {
   margin: 1rem; /*1rem , 2vh*/
   position: absolute;

@@ -7,7 +7,8 @@
       "pageHeader_jp": "厳島神社",
       "pageSubHeader": "Hatsukaichi, Hiroshima Prefecture",
       "content": "",
-      "image": "ItsukushimaShrine.jpg"
+      "image": "ItsukushimaShrine.jpg",
+      "offset": 50
     },
     {
       "title": "FUSHIMI INARI-TAISHA",
@@ -16,7 +17,8 @@
       "pageHeader_jp": "伏見稲荷大社",
       "pageSubHeader": "Kyoto, Kyoto Prefecture",
       "content": "",
-      "image": "FushimiShrine.jpg"
+      "image": "FushimiShrine.jpg",
+      "offset": 65
     },
     {
       "title": "NIKKO TOSHO-GU",
@@ -25,16 +27,28 @@
       "pageHeader_jp": "日光東照宮",
       "pageSubHeader": "Nikko, Tochigi Prefecture",
       "content": "",
-      "image": "NikkoShrine.jpg"
+      "image": "NikkoShrine.jpg",
+      "offset": 68
     },
     {
-      "title": "KUMANO NACHI TAISHA",
-      "subTitle": "NACHIKATSURA",
-      "pageHeader": "KUMANO NACHI TAISHA",
-      "pageHeader_jp": "熊野那智大社",
-      "pageSubHeader": "Nachikatsura, Wakayama Prefecture",
+      "title": "YUTOKU INARI SHRINE",
+      "subTitle": "KASHIMA",
+      "pageHeader": "YUTOKU INARI SHRINE",
+      "pageHeader_jp": "祐徳稲荷神社",
+      "pageSubHeader": "Kashima, Saga Prefecture",
       "content": "",
-      "image": "KumanonachiShrine.jpg"
+      "image": "YutokuShrine.jpg",
+      "offset": 20
+    },
+    {
+      "title": "SENSO-JI",
+      "subTitle": "TOKYO",
+      "pageHeader": "SENSO-JI",
+      "pageHeader_jp": "浅草寺",
+      "pageSubHeader": "Taito, Tokyo Metropolis",
+      "content": "",
+      "image": "SensojiShrine.jpg",
+      "offset": 55
     }
   ]
 }

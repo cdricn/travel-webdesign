@@ -13,6 +13,9 @@
   justify-content: center;
   gap: clamp(9.6px, calc(0.6rem + ((1vw - 7.8px) * 0.5614)), 16px);
 }
+.button_container:hover {
+  cursor: pointer; 
+}
 
 .button_line {
   padding: 2px;
