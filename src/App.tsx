@@ -1,6 +1,5 @@
 import Navbar from './components/Navbar'
 import GridItems from './components/GridItems'
-import data from './content.json'
 import './App.css'
 
 function App() {
@@ -10,7 +9,9 @@ function App() {
       <Navbar />
     </div>
     <div className='page_wrapper'>
-      <GridItems />
+      <div className='grid_main'>
+        <GridItems />
+      </div>
     </div>
     </>
   )

@@ -4,7 +4,7 @@
   justify-content: end;
 
   height: clamp(50px, calc(3.125rem + ((1vw - 7.8px) * 2.6316)), 80px);
-  background-color: #101C10;
+  background-color: var(--color-bg);
 }
 
 .button_container {

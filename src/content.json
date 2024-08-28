@@ -7,7 +7,7 @@
       "pageHeader_jp": "厳島神社",
       "pageSubHeader": "Hatsukaichi, Hiroshima Prefecture",
       "content": "",
-      "image": "./assets/ItsukushimaShrine.jpg"
+      "image": "ItsukushimaShrine.jpg"
     },
     {
       "title": "FUSHIMI INARI-TAISHA",
@@ -16,7 +16,7 @@
       "pageHeader_jp": "伏見稲荷大社",
       "pageSubHeader": "Kyoto, Kyoto Prefecture",
       "content": "",
-      "image": "./assets/FushimiShrine.jpg"
+      "image": "FushimiShrine.jpg"
     },
     {
       "title": "NIKKO TOSHO-GU",
@@ -25,7 +25,7 @@
       "pageHeader_jp": "日光東照宮",
       "pageSubHeader": "Nikko, Tochigi Prefecture",
       "content": "",
-      "image": "./assets/NikkoShrine.jpg"
+      "image": "NikkoShrine.jpg"
     },
     {
       "title": "KUMANO NACHI TAISHA",
@@ -34,7 +34,7 @@
       "pageHeader_jp": "熊野那智大社",
       "pageSubHeader": "Nachikatsura, Wakayama Prefecture",
       "content": "",
-      "image": "./assets/KumanonachiShrine.jpg"
+      "image": "KumanonachiShrine.jpg"
     }
   ]
 }
