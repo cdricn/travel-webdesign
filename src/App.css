@@ -4,6 +4,8 @@
 
   --color-sub: #FF6565;
   --color-bg: #101C10;
+  --color-border: rgb(243, 243, 243);
+  --color-hover: rgba(114, 114, 114, 0.205);
 }
 
 h2 {
@@ -17,7 +19,7 @@ h3 {
 }
 
 .page_wrapper {
-  height: 100svh;
+  height: 100%;
   background-color: var(--color-bg);
 }
 
@@ -27,11 +29,13 @@ h3 {
 }
 
 .grid_item {
+  border: 0px solid var(--color-border);
   position: relative;
   height: 455px; /*455px , 50vh*/
   isolation: isolate;
   background-size: cover;
   background-repeat: no-repeat;
+  transition: 100ms;
 }
 .grid_item::before {
   content: "";
@@ -43,17 +47,38 @@ h3 {
     rgba(0 0 0 / .6) 0%,
     rgba(255 255 255 / 0) 40%
   );
+  transition: 200ms;
 }
 .grid_item:hover {
+  border: 8px solid var(--color-border);
+  transition: 200ms;
+}
+.grid_item:hover::before {
+  background: var(--color-hover);
+  transition: 200ms;
+}
+.grid_item:hover .item_title {
+  margin-right: 2rem;
+  transition: .5s;
+}
+.grid_item:hover .item_subtitle {
+  margin-right: 2rem;
+  transition: .8s;
 }
 
-.item_title {
+.item_title_container {
   margin: 1rem; /*1rem , 2vh*/
   position: absolute;
   bottom: 0;
   right: 0;
   
   text-align: end;
+}
+.item_title {
+  transition: .5s;
+}
+.item_subtitle {
+  transition: .8s;
 }
 
 @media (width < 1280){
