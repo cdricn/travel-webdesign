@@ -9,9 +9,9 @@ function App() {
       <Navbar />
     </div>
     <div className='page_wrapper'>
-      <div className='grid_main'>
+      <ul className='grid_main'>
         <GridItems />
-      </div>
+      </ul>
     </div>
     </>
   )

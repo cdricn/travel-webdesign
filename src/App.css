@@ -4,10 +4,9 @@
 
   --color-sub: #FF6565;
   --color-bg: #101C10;
-  --color-border: rgb(243, 243, 243);
-  --color-hover: rgba(114, 114, 114, 0.205);
+  --color-border: rgb(243, 243, 243, 1);
+  --color-hover: rgba(43, 43, 43, 0.452);
 }
-
 h2 {
   font-family: 'InriaBold';
   font-size: 4rem; /*4rem to 2.5rem , 7vh*/
@@ -16,6 +15,10 @@ h2 {
 h3 {
   font-size: 1.8rem; /*1.8rem to 0rem , 3.2vh*/
   color: var(--color-sub);
+}
+
+.navbar {
+  height: clamp(50px, calc(3.125rem + ((1vw - 7.8px) * 2.6316)), 80px)
 }
 
 .page_wrapper {
@@ -35,7 +38,14 @@ h3 {
   isolation: isolate;
   background-size: cover;
   background-repeat: no-repeat;
-  transition: 100ms;
+  cursor: pointer;
+  transition: .3s;
+}
+.grid_item:hover {
+  border: 8px solid var(--color-border);
+  padding: 8px;
+  height: 600px;/**/
+  transition: .5s;
 }
 .grid_item::before {
   content: "";
@@ -49,12 +59,12 @@ h3 {
   );
   transition: 200ms;
 }
-.grid_item:hover {
-  border: 8px solid var(--color-border);
-  transition: 200ms;
-}
 .grid_item:hover::before {
-  background: var(--color-hover);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.415) 0%,
+    rgba(255 255 255 / 0) 50%
+  ); /*Replace with --color-hover if no height change*/
   transition: 200ms;
 }
 .grid_item:hover .item_title {
@@ -84,3 +94,5 @@ h3 {
 @media (width < 1280){
   /*Change vh to rem*/
 }
+
+
