@@ -6,7 +6,7 @@ function Navbar(){
 
   return (
     <>
-      <div className={styles.container}>
+      <div className={styles.nav_container}>
         <div className={styles.button_container} onClick={() => console.log('test')}>
           <div className={styles.line}>
           </div>

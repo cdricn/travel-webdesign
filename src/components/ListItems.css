@@ -1,0 +1,19 @@
+.menu_item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 300px auto;
+  align-items: center;
+}
+
+.menu_image {
+  height: 150px;
+  width: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 40%;
+}
+
+.menu_title {
+  padding-left: 1rem;
+  vertical-align: baseline;
+}

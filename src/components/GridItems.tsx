@@ -1,4 +1,5 @@
 import data from '../content.json'
+import './GridItems.css'
 
 function GridItems() {
 

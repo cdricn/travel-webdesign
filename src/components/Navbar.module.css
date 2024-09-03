@@ -2,7 +2,7 @@
   --width-line: clamp(40px, calc(2.5rem + ((1vw - 7.8px) * 2.6316)), 70px);
 }
 
-.container {
+.nav_container {
   padding: clamp(2px, calc(0.125rem + ((1vw - 7.8px) * 0.7018)), 10px);
   padding-right: 1rem;
   position: fixed;
